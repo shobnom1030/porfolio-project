@@ -1,5 +1,6 @@
 .body{
     font-family: 'Lora', serif; 
+   margin: 0;
 }
 
 h1{
@@ -7,36 +8,109 @@ h1{
     font-family: 'Lora', serif;
 }
 .name{
-    color: rgb(87, 148, 27);
+    color: rgb(87, 148, 27); 
     font-size: 60px;
 }
 
 .para1{
     
-    color: rgb(76, 71, 77);
-}
-.but1{
-    background-color: rgb(42, 165, 73);
-    width: 70px;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
+    color: rgb(71, 77, 74);
 }
 .link1{
+    background-image: linear-gradient(45deg,rgb(124, 216, 124),green);
+    width: 70px;
+    height: 30px;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
+
 .div1{
     float: left;
-    width: 40%;
+    width: 45%;
+    margin-left: 5%;
 }
-.div2{
+.div2 {
     float: right;
-    width: 50%;
+    width: 45%;
 }
 .div2 img{
-   /* margin-top: 50px;*/
+    
     width: 550px;
     height: 400px;
+}
+
+
+section{
+    height: 500px;
+}
+.sec1{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.div3 img{
+    float: left;
+    width: 45%;
+    width: 550px;
+    height: 400px;
+}
+.div4{
+    float: right;
+    width: 45%;
+    margin-left: 5%;
+}
+.sec2{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sec3{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+.div5{
+    background-color: white;
+    max-width: 40%;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.div6{
+    max-width: 40%;
+    height: 200px;
+    float: left;
+    border-left: 3px solid rgb(32, 9, 241);
+    border-radius: 10px;
+    margin-left: 6%;
+    margin-top: 3%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.highlight{
+    color: rgb(87, 148, 27)
+}
+
+#border1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, rgb(219, 123, 123), rgb(146, 25, 25));
+    border-image-slice: 1;    
+}
+#border2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg,rgb(145, 139, 196), rgb(32, 9, 241));
+    border-image-slice: 1;    
+}
+
+footer > p{
+    text-align: center;
 }
