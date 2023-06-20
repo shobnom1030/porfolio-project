@@ -1,0 +1,42 @@
+.body{
+    font-family: 'Lora', serif; 
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Lora', serif;
+}
+.name{
+    color: rgb(87, 148, 27);
+    font-size: 60px;
+}
+
+.para1{
+    
+    color: rgb(76, 71, 77);
+}
+.but1{
+    background-color: rgb(42, 165, 73);
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.link1{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.div1{
+    float: left;
+    width: 40%;
+}
+.div2{
+    float: right;
+    width: 50%;
+}
+.div2 img{
+   /* margin-top: 50px;*/
+    width: 550px;
+    height: 400px;
+}
